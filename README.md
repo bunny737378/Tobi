@@ -1,7 +1,5 @@
 # Modular Media Connector Protocol (MMCP v1.0)
 
-An original, fault-tolerant JSON & JavaScript runtime specification designed from first principles for a **native Kotlin + QuickJS** streaming and pro-grade media player application (Media3/ExoPlayer + FFmpeg, `libmpv`, or `LibVLC`).
-
 ---
 
 ## Core Design Principles
