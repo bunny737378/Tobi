@@ -1,0 +1,38 @@
+{
+  "connectorId": "org.tobi.anidap",
+  "displayName": "AniDap",
+  "version": "1.0.0",
+  "protocolVersion": 1,
+  "maintainer": "tobi",
+  "summary": "Anime streaming via AniDap — AniList metadata with multi-server SUB/DUB/HSub playback.",
+  "iconUri": "https://anidap.lol/favicon.ico",
+  "originUrl": "https://anidap.lol",
+  "locales": ["en"],
+  "matureContent": false,
+  "features": {
+    "feed": true,
+    "catalogSearch": true,
+    "dynamicFilters": true,
+    "deferredSources": true,
+    "downloads": false,
+    "needsWebViewBridge": false
+  },
+  "defaultNet": {
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/130.0 Mobile Safari/537.36",
+      "Referer": "https://anidap.lol/",
+      "Origin": "https://anidap.lol"
+    },
+    "attachCookies": true,
+    "lockUserAgent": true
+  },
+  "userConfigSchema": [
+    {
+      "key": "mirror_domain",
+      "label": "Custom Mirror URL",
+      "inputType": "url",
+      "required": false,
+      "defaultValue": "https://anidap.lol"
+    }
+  ]
+}
